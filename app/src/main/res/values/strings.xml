@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FlowerSymbolizer</string>
+    <string-array name="Options">
+        <item>Joy</item>
+        <item>Friendship</item>
+        <item>Admiration</item>
+        <item>Gratitude</item>
+        <item>Love</item>
+    </string-array>
+</resources>

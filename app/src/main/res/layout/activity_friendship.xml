@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Friendship"
+    android:padding="20dp">
+
+
+
+    <ImageView
+        android:id="@+id/imgZinnia"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/zinnia"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZINNIA"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#bf360c"
+        android:layout_toRightOf="@id/imgZinnia"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With their big, round, and colorful blossoms, this is a flower that makes people feel happy, just as friendships do"
+        android:textSize="20dp"
+        android:textColor="#bf360c"
+        android:textStyle="italic"
+        android:layout_below="@id/imgZinnia"/>
+
+    <ImageView
+        android:id="@+id/imgChrysanthemum"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/chrysanthemum"
+        android:layout_marginTop="200dp"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHRYSANTHEMUM"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#ff6e40"
+        android:layout_toRightOf="@id/imgChrysanthemum"
+        android:layout_marginTop="200dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Chrysanthemum flower symbolizes friendship that is not only passable, but a friendship that truly means something to you."
+        android:textSize="20dp"
+        android:textColor="#ff6e40"
+        android:textStyle="italic"
+        android:layout_below="@id/imgChrysanthemum" />
+
+
+    <ImageView
+        android:id="@+id/imgFREESIA"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/freesia"
+        android:layout_marginTop="425dp"></ImageView>
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="425dp"
+        android:layout_toRightOf="@id/imgFREESIA"
+        android:text="FREESIA"
+        android:textColor="#e040fb"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As a symbol of friendship,faithfulness and trust,freesia will not only add meaning to your life,but also bring joy and sweet fragrance to your home"
+        android:textSize="20dp"
+        android:textColor="#e040fb"
+        android:textStyle="italic"
+        android:layout_below="@id/imgFREESIA"
+        android:padding="10dp"/>
+
+</RelativeLayout>

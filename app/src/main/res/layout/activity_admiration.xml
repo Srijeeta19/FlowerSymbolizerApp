@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admiration"
+    android:padding="20dp">
+
+
+
+    <ImageView
+        android:id="@+id/imgOrchid"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/orchid"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/imgOrchid"
+        android:padding="10dp"
+        android:text="ORCHID"
+        android:textColor="#bf360c"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These highly distinctive flowers symbolise rare and delicate beauty. Interestingly, they were favoured by the Ancient Greeks to show masculinity but this has now changed to a more feminine meaning"
+        android:textSize="15dp"
+        android:textColor="#bf360c"
+        android:textStyle="italic"
+        android:layout_below="@id/imgOrchid"/>
+
+    <ImageView
+        android:id="@+id/imgSweetWILLIAM"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sweet_william"
+        android:layout_marginTop="200dp"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/imgSweetWILLIAM"
+        android:padding="10dp"
+        android:text="SWEET WILLIAM"
+        android:textColor="#ff6e40"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" As one of the only flowers to symbolise masculinity, sweet william means gallantry. Historically, Sweet William was mentioned in romantic ballads as a noble, lovelorn hero, so give these to your knight in shining armour."
+        android:textSize="15dp"
+        android:textColor="#ff6e40"
+        android:textStyle="italic"
+        android:layout_below="@id/imgSweetWILLIAM" />
+
+
+    <ImageView
+        android:id="@+id/imgCAMELIA"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/camelia"
+        android:layout_marginTop="425dp"></ImageView>
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="425dp"
+        android:layout_toRightOf="@id/imgCAMELIA"
+        android:text="CAMELIA"
+        android:textColor="#e040fb"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The general meaning of these flowers is love, affection and admiration. Go for white to show adoration and pink to show longing (often given to someone who is missed)"
+        android:textSize="20dp"
+        android:textColor="#e040fb"
+        android:textStyle="italic"
+        android:layout_below="@id/imgCAMELIA"
+        android:padding="10dp"/>
+
+</RelativeLayout>

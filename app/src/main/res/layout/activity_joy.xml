@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Joy"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgSunflower"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sunflower"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUNFLOWER"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#bf360c"
+        android:layout_toRightOf="@id/imgSunflower"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How can the big, cheerful heads of the sunflower mean anything but happiness"
+        android:textSize="20dp"
+        android:textColor="#bf360c"
+        android:textStyle="italic"
+        android:layout_below="@id/imgSunflower"/>
+
+    <ImageView
+        android:id="@+id/imgSWEETPEA"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sweet_pea"
+        android:layout_marginTop="200dp"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWEET PEA"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#ff6e40"
+        android:layout_toRightOf="@id/imgSWEETPEA"
+        android:layout_marginTop="200dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symbolising pleasure, bliss and departure after having a good time sweet peas make a lovely addition to wedding bouquets"
+        android:textSize="20dp"
+        android:textColor="#ff6e40"
+        android:textStyle="italic"
+        android:layout_below="@id/imgSWEETPEA" />
+
+
+    <ImageView
+        android:id="@+id/imgDaffodil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/daffodil"
+        android:layout_marginTop="425dp"></ImageView>
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="425dp"
+        android:layout_toRightOf="@id/imgDaffodil"
+        android:text="DAFFODIL"
+        android:textColor="#e040fb"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As one of the first signs of spring it's no surprise that daffodils represent rebirth, new beginnings and good fortune. Make sure you give them as a bunch because a single daffodil represents misfortune."
+        android:textSize="20dp"
+        android:textColor="#e040fb"
+        android:textStyle="italic"
+        android:layout_below="@id/imgDaffodil"
+        android:padding="10dp"/>
+
+</RelativeLayout>

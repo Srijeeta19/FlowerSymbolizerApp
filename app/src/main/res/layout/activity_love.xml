@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Love"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/imgRose"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/rose"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROSE"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#bf360c"
+        android:layout_toRightOf="@id/imgRose"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The lover's rose, often associated with Valentine's Day, meaning enduring passion"
+        android:textSize="20dp"
+        android:textColor="#bf360c"
+        android:textStyle="italic"
+        android:layout_below="@id/imgRose"/>
+
+    <ImageView
+        android:id="@+id/imgDahlia"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/dahlia"
+        android:layout_marginTop="200dp"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAHLIA"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#ff6e40"
+        android:layout_toRightOf="@id/imgDahlia"
+        android:layout_marginTop="200dp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demonstrates the lasting bond and commitment between two people - great for anniversaries"
+        android:textSize="20dp"
+        android:textColor="#ff6e40"
+        android:textStyle="italic"
+        android:layout_below="@id/imgDahlia" />
+
+
+    <ImageView
+        android:id="@+id/imgCarnation"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/carnation"
+        android:layout_marginTop="425dp"></ImageView>
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="425dp"
+        android:layout_toRightOf="@id/imgCarnation"
+        android:text="CARNATION"
+        android:textColor="#e040fb"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="They stand for love, fascination and distinction but the colour you choose changes the meaning slightly:
+        Light Red - admiration
+        Dark Red - deep love and affection
+        White- pure love and good luck
+        Pink - a Mother's undying love"
+        android:textSize="15dp"
+        android:textColor="#e040fb"
+        android:textStyle="italic"
+        android:layout_below="@id/imgCarnation"
+        android:padding="10dp"/>
+
+</RelativeLayout>
